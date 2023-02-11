@@ -1,10 +1,13 @@
 {
    "compilerOptions": {
-     "experimentalDecorators": true,
+      "experimentalDecorators": true,
+      "moduleResolution": "node",
       "target": "es6",
-         "watch": true,
-            "outDir": "./"
+      "watch": true,
+      "outDir": "./"
    },
-   "include": ["./**/*.ts"],
+   "include": [
+      "./**/*.ts"
+   ],
    "exclude": []
 }
